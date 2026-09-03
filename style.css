@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1c1c2b;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.intro, .map, .quest {
+  padding: 20px;
+}
+
+.barrier {
+  background: #2e2e48;
+  margin: 10px auto;
+  padding: 15px;
+  border: 2px solid #555;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.barrier:hover {
+  background: #444;
+}
+
+#choices button {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+}

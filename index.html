@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Castle Quest: Learn C & Python</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro">
+    <h1>🏰 Castle Quest</h1>
+    <p>You are a prince on a mission to reach the princess in another state.</p>
+    <p>To pass dragons, witches, jungles, and more — you must complete coding quests!</p>
+    <button id="start-btn">Start Adventure</button>
+  </div>
+
+  <div class="map hidden" id="map">
+    <h2>Choose a Barrier</h2>
+    <div class="barrier" data-level="1">🐉 Dragon</div>
+    <div class="barrier" data-level="2">🌿 Jungle</div>
+    <div class="barrier" data-level="3">🧙 Witch</div>
+    <div class="barrier" data-level="4">🏰 Castle Gate</div>
+    <div class="barrier" data-level="5">📜 Final Quiz</div>
+  </div>
+
+  <div class="quest hidden" id="quest">
+    <h2 id="quest-title"></h2>
+    <p id="quest-text"></p>
+    <div id="choices"></div>
+    <button id="next-btn">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
