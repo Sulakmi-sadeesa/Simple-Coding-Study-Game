@@ -17,5 +17,3 @@ Vanilla HTML/CSS/JavaScript
 - Answer coding questions and complete tasks
 - Progress through levels by solving challenges
 - Learn C and Python along the way
-
-## Run locally
